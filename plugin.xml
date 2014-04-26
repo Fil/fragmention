@@ -1,0 +1,35 @@
+<plugin>
+	<nom>Fragmention</nom>
+	<auteur>
+	https://github.com/chapmanu/fragmentions mise en plugin par Fil
+	</auteur>
+	<licence>
+		&#169; 2014 - CC0 1.0 Universal License
+	</licence>
+	<version>
+	0.0.1
+	</version>
+	<etat>
+	dev
+	</etat>
+	<description>
+	Met en oeuvre fragmention
+	</description>
+	<lien>http://www.spip-contrib.net/Fragmention</lien>
+	<prefix>
+	fragmention
+	</prefix>
+	<icon>
+	</icon>
+	<pipeline>
+		<nom>insert_head</nom>
+		<inclure>fragmention_fonctions.php</inclure>
+	</pipeline>
+	<pipeline>
+		<nom>insert_head_css</nom>
+		<inclure>fragmention_fonctions.php</inclure>
+	</pipeline>
+	<chemin dir='' />
+	<categorie>navigation</categorie>
+	<necessite id="SPIP" version="[1.9.0;3.99.99]" />
+</plugin>
